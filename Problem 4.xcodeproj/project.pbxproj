@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8DD76FAC0486AB0100D96B5E /* problem4.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* problem4.c */; settings = {ATTRIBUTES = (); }; };
 		8DD76FB00486AB0100D96B5E /* Problem 4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* Problem 4.1 */; };
+		A564575A155880FD00A54026 /* dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = A5645759155880FD00A54026 /* dummy.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* problem4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = problem4.c; sourceTree = "<group>"; };
 		8DD76FB20486AB0100D96B5E /* Problem 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem 4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5645758155880FD00A54026 /* dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummy.h; sourceTree = "<group>"; };
+		A5645759155880FD00A54026 /* dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dummy.c; sourceTree = "<group>"; };
 		C6A0FF2C0290799A04C91782 /* Problem 4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Problem 4.1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +50,8 @@
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6A0FF2B0290797F04C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				A5645758155880FD00A54026 /* dummy.h */,
+				A5645759155880FD00A54026 /* dummy.c */,
 			);
 			name = "Problem 4";
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76FAC0486AB0100D96B5E /* problem4.c in Sources */,
+				A564575A155880FD00A54026 /* dummy.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +193,7 @@
 				GCC_WARN_SIGN_COMPARE = YES;
 				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;

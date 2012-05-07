@@ -31,8 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../../Problem 4.1" />
+		<Unit filename="../../README.md" />
+		<Unit filename="../../dummy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../dummy.h" />
 		<Unit filename="../../problem4.c">
 			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../problem4.s">
+			<Option compile="0" />
 		</Unit>
 		<Extensions>
 			<code_completion />

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1336428817 source:/Users/ericgallager/Problem4/problem4.c
+	<stdio.h>
+
+1336428817 source:/Users/ericgallager/Problem4/problem4.s
+
+1336429662 source:/Users/ericgallager/Problem4/dummy.c
+	"dummy.h"
+
+1336428946 /Users/ericgallager/Problem4/dummy.h
+	<stdio.h>
+
