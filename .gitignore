@@ -17,3 +17,6 @@ profile
 -1
 *.cbTemp
 *.cbp.cbTemp
+a.out
+*.out
+
