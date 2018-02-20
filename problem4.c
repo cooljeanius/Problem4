@@ -1,4 +1,4 @@
-/*
+/* -*- C -*-
  *  problem4.c
  *  problem4
  *

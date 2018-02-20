@@ -1,5 +1,5 @@
-/*
- *  dummy.c
+/* -*- C -*-
+ *  dummy1.c
  *  Problem 4
  *
  *  Created by Eric Gallager on 5/7/12.

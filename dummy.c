@@ -1,4 +1,4 @@
-/*
+/* -*- C -*-
  *  dummy.c
  *  Problem 4
  *
